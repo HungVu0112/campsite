@@ -41,7 +41,7 @@ export default function Nav() {
         <div className="fixed w-full h-[60px] flex items-center justify-between px-8 shadow-md z-[1] bg-white">
             <div className="flex gap-2 mochiy-pop-one">
                 <img 
-                    src="/images/logo.svg" 
+                    src="/pic/logo.svg" 
                     alt="logo"
                     width={20}
                     height={20} 

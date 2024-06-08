@@ -108,7 +108,7 @@ export default function Signup() {
                 'id': user?.id,
                 'email': formData.email,
                 'username': formData.username,
-                'avatar': formData.image || "/images/default_avatar.svg"
+                'avatar': formData.image || "/pic/default_avatar.svg"
             })
         
         if (error) console.log(error);
@@ -140,7 +140,7 @@ export default function Signup() {
                     <div ref={slide} className="flex flex-col items-center w-full h-full bg-white absolute right-[-400px] top-0 rounded-md p-10">
                         <div className="flex items-center justify-center w-[150px] h-[150px] rounded-full border-2 border-slate-400 shadow-md overflow-hidden relative">
                             <Image 
-                                src={formData.image || "/images/default_avatar.svg"}
+                                src={formData.image || "/pic/default_avatar.svg"}
                                 alt="avatar"
                                 layout="fill"
                             />

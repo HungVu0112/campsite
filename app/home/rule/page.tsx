@@ -137,7 +137,7 @@ export default function Guide() {
                     <div className="flex justify-around">
                         <div className="w-[600px] rounded-md overflow-hidden">
                             <img 
-                                src="/images/kajifusegu.jpg" 
+                                src="/pic/kajifusegu.jpg" 
                                 alt="Kajifusegu"
                                 className="w-full h-[337.5px]"  
                             />

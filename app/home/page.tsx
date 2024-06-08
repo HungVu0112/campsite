@@ -68,7 +68,7 @@ export default function Home() {
                             </div>
                             <div className="ml-[40px] w-[300px] h-[500px] flex items-center">
                                 <Image 
-                                    src="/images/talking_kagamihara.png"
+                                    src="/pic/talking_kagamihara.png"
                                     alt="Talking Kagamihara"
                                     width={300}
                                     height={200}
