@@ -8,7 +8,12 @@ export default function Home() {
   const router = useRouter();
 
   return (
-    <div className="start-view w-full h-[100vh] flex flex-col items-center justify-center gap-[64px] mochiy-pop-one">
+    <div className="w-full h-[100vh] flex flex-col items-center justify-center gap-[64px] mochiy-pop-one">
+        <img 
+          src="/pic/start_view_bg.jpg"
+          alt="pic" 
+          className="absolute top-0 left-0 w-full h-full -z-10"
+        />
         <div>
           <h1 className="text-[84px] font-bold text-white">キャンプサイトへ</h1>
           <h2 className="text-[74px] text-white text-center">ようこそ</h2>

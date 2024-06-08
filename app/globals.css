@@ -33,20 +33,6 @@
 }
 
 @layer utilities {
-  .start-view {
-    background-image: url('/pic/start_view_bg.jpg');
-    background-size: cover;
-    background-position: center;
-    background-repeat: no-repeat;
-  }
-
-  .auth-bg {
-    background-image: url('/pic/auth_bg.jpg');
-    background-size: cover;
-    background-position: center;
-    background-repeat: no-repeat;
-  }
-
   .pacifico-regular {
     font-family: "Pacifico", cursive;
   }

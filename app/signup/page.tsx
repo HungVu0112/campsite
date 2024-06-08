@@ -121,7 +121,12 @@ export default function Signup() {
 
     return (
         <>
-            <div className="w-full h-[100vh] auth-bg flex items-center justify-center">
+            <div className="w-full h-[100vh] flex items-center justify-center">
+                <img 
+                    src="/pic/auth_bg.jpg"
+                    alt="pic" 
+                    className="absolute top-0 left-0 w-full h-full -z-10"
+                />
                 <div className="w-[400px] h-[500px] relative overflow-hidden">
                     <div className="w-full h-full bg-white-transparent text-gray-600 rounded-md mochiy-pop-one flex flex-col items-center p-6">
                         <h1 className="mt-8 font-bold text-[40px]">サインアップ</h1>
